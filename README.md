@@ -1,23 +1,57 @@
-# Sales Performance Dashboard
+# 📊 Sales Performance Dashboard
 
-## Project Overview
-Cleaned and analyzed retail sales data containing over 9,000 records. 
-This project focuses on extracting key business insights, including top-performing products, customers, and regions using a data-driven approach.
+![Dashboard Preview](PowerBI/Dashboard1.png)
 
-## Tools & Technologies
-- **Excel / CSV**: Dataset management
-- **SQL**: Extracted key business insights, including top-performing products, customers, and regions.
-- **Python (Pandas & Matplotlib)**: Performed exploratory data analysis (EDA) to find seasonal sales trends.
-- **Power BI**: Built an interactive dashboard with KPIs, trend analysis, regional performance, and profitability insights to identify loss-making products.
+## 📖 Project Overview
+This project provides a comprehensive analysis of retail sales data (over 9,000 records) to uncover actionable business insights. Using a complete data analytics pipeline—from data cleaning and SQL querying to exploratory data analysis in Python and interactive visualization in Power BI—this project identifies top-performing products, high-value customers, and regional sales trends.
 
-## Deliverables
-- **Superstore.csv**: Cleaned dataset
-- **analysis.sql**: SQL queries for key business insights
-- **sales_analysis.ipynb**: Python Jupyter Notebook containing the EDA
-- **Sales_Dashboard.pbix**: Interactive Power BI dashboard
-- **Report.pdf**: Project report summarizing the findings
+## 🎯 Key Objectives
+- Clean and preprocess raw sales data for accuracy.
+- Perform Exploratory Data Analysis (EDA) to uncover seasonal trends.
+- Use SQL to extract performance metrics (top customers, profitable states, loss-making products).
+- Design an interactive Power BI dashboard to present KPIs and profitability insights to stakeholders.
 
-## How to Run
-1. **SQL**: Run `analysis.sql` in your preferred SQL client against the Superstore dataset.
-2. **Python**: Open and run `sales_analysis.ipynb` in Jupyter Notebook. Ensure `pandas` and `matplotlib` are installed.
-3. **Power BI**: Open `Sales_Dashboard.pbix` in Power BI Desktop to view the interactive dashboard.
+## 🛠️ Tools & Technologies
+- **Data Management**: Excel / CSV
+- **Database & Querying**: SQL
+- **Data Analysis**: Python (Pandas, Matplotlib)
+- **Data Visualization**: Power BI
+
+## 📂 Repository Contents (Deliverables)
+- **`Dataset/Superstore.csv`**: The cleaned dataset used for all analyses.
+- **`SQL/analysis.sql`**: SQL scripts for aggregating data and extracting key business insights.
+- **`sales_analysis.ipynb`**: Python Jupyter Notebook documenting the EDA process and visualizing seasonal trends.
+- **`Sales_Dashboard.pbix`**: The interactive Power BI dashboard containing KPIs, trend analyses, and profitability breakdowns.
+- **`Report.pdf`**: A summary report of the project findings.
+- **`PowerBI/`**: Folder containing dashboard screenshots and related assets.
+
+## 🔍 Key Insights & Findings
+1. **Regional Performance**: Identified the most and least profitable states to help reallocate marketing budgets.
+2. **Product Profitability**: Pinpointed specific loss-making products that require pricing adjustments or discontinuation.
+3. **Seasonal Trends**: Uncovered peak sales months, allowing for better inventory planning.
+4. **Customer Segmentation**: Highlighted the top 10 high-value customers driving a significant portion of total revenue.
+
+## 🚀 How to Run the Project
+
+### 1. SQL Analysis
+- Load `Dataset/Superstore.csv` into your preferred SQL database (e.g., MySQL, PostgreSQL, SQL Server).
+- Execute the queries provided in `SQL/analysis.sql` to view the aggregated metrics.
+
+### 2. Python EDA
+- Ensure you have Python installed along with Jupyter, Pandas, and Matplotlib.
+- Run `pip install pandas matplotlib jupyter`
+- Launch Jupyter Notebook and open `sales_analysis.ipynb`.
+- Run all cells to see the data cleaning steps and visualizations.
+
+### 3. Power BI Dashboard
+- Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+- Open `Sales_Dashboard.pbix`.
+- Interact with the filters and visualizations to explore regional performance and profitability.
+
+## 📈 Dashboard Screenshots
+
+### Overview
+![Overview Dashboard](PowerBI/Dashboard1.png)
+
+### Regional & Profitability Insights
+![Insights Dashboard](PowerBI/Dashboard2.png)
